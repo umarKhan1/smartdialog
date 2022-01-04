@@ -13,9 +13,27 @@ and the Flutter guide for
 
 The new flutter smart and simple dialog package that is easy to understand and simple to implement
 
+All You need simple import this flutter package
+```
+import 'package:smartdialog/smartdialog.dart';
+```
+
+example of implement pass some text in this dialog
 
 ```
-import ''
+ MaterialButton(
+              color: Colors.blue,
+              height: 50,
+              shape: const RoundedRectangleBorder(
+                borderRadius: BorderRadius.all(Radius.circular(10)),
+              ),
+              textColor: Colors.white,
+              child:  Text('Show Info Dialog',),
+              onPressed: () {
+                SmartDialog.showinfoDialog(context: context, title: "Something insert here");
+              },
+
+
 ```
 ## Features
 
