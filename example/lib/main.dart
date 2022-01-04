@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:smartdialog/smartdialog.dart';
+import 'package:simple_dialogs_flutter/simple_dialogs_flutter.dart';
+
+
 void main() {
   runApp(const MyApp());
 }
@@ -54,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
               textColor: Colors.white,
               child:  Text('Show Scuess Dialog',),
               onPressed: () {
-                SmartDialog.showSuccessDialog(context: context, title: "");
+                SimpleDialogs.showSuccessDialog(context: context, title: "");
               },
             ),
             SizedBox(height: 20,),
@@ -67,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
               textColor: Colors.white,
               child:  Text('Show Error Dialog',),
               onPressed: () {
-                SmartDialog.showerrorDialog(context: context, title: "");
+                SimpleDialogs.showerrorDialog(context: context, title: "");
               },
             ),
             SizedBox(height: 20,),
@@ -80,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
               textColor: Colors.white,
               child:  Text('Show Info Dialog',),
               onPressed: () {
-                SmartDialog.showinfoDialog(context: context, title: "");
+                SimpleDialogs.showinfoDialog(context: context, title: "");
               },
             )
           ],

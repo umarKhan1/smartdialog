@@ -29,7 +29,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  smartdialog:
+  simple_dialogs_flutter:
     path: ../
 
 

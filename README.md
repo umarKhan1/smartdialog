@@ -19,20 +19,20 @@ All you need is simple import library for this flutter package
 
 
 ```
-import 'package:smartdialog/smartdialog.dart';
+import 'package:simple_dialogs_flutter/simple_dialogs_flutter.dart';
 ```
 
 example of implementation pass some text in this dialog
 
 ```
-                SmartDialog.showinfoDialog(context: context, title: "Something insert here");
+                SimpleDialogs.showinfoDialog(context: context, title: "Something insert here");
 
 ```
 
 ![alt text](assets/demo.gif)
 
 
-In the button
+In the button you need code like this
 ```
  MaterialButton(
               color: Colors.blue,
@@ -43,7 +43,7 @@ In the button
               textColor: Colors.white,
               child:  Text('Show Info Dialog',),
               onPressed: () {
-                SmartDialog.showinfoDialog(context: context, title: "Something insert here");
+                SimpleDialogs.showinfoDialog(context: context, title: "Something insert here");
               },
 ```
 
