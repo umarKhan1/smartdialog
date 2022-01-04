@@ -21,6 +21,11 @@ import 'package:smartdialog/smartdialog.dart';
 example of implement pass some text in this dialog
 
 ```
+                SmartDialog.showinfoDialog(context: context, title: "Something insert here");
+
+```
+In the button
+```
  MaterialButton(
               color: Colors.blue,
               height: 50,
