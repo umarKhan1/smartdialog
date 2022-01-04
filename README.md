@@ -13,6 +13,10 @@ and the Flutter guide for
 
 The new flutter smart and simple dialog package that is easy to understand and simple to implement
 
+
+```
+import ''
+```
 ## Features
 
 TODO: List what your package can do. Maybe include images, gifs, or videos.
