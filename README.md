@@ -13,12 +13,12 @@ and the Flutter guide for
 
 The new flutter smart and simple dialog package that is easy to understand and simple to implement
 
-All You need simple import this flutter package
+All you need is simple import library for this flutter package
 ```
 import 'package:smartdialog/smartdialog.dart';
 ```
 
-example of implement pass some text in this dialog
+example of implementation pass some text in this dialog
 
 ```
                 SmartDialog.showinfoDialog(context: context, title: "Something insert here");
