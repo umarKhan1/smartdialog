@@ -14,6 +14,10 @@ and the Flutter guide for
 The new flutter smart and simple dialog package that is easy to understand and simple to implement
 
 All you need is simple import library for this flutter package
+
+
+
+
 ```
 import 'package:smartdialog/smartdialog.dart';
 ```
@@ -24,6 +28,10 @@ example of implementation pass some text in this dialog
                 SmartDialog.showinfoDialog(context: context, title: "Something insert here");
 
 ```
+
+![alt text](assets/demo.gif)
+
+
 In the button
 ```
  MaterialButton(
